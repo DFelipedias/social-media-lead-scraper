@@ -2,8 +2,8 @@ name: B2B Lead Scraper
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # Todo dia às 03:00 BRT (06:00 UTC)
-  workflow_dispatch:       # Permite rodar manualmente também
+    - cron: '0 6 * * *'  # Every day 03:00 BRT (06:00 UTC)
+  workflow_dispatch:       # Can run code manually too
 
 jobs:
   scraper:
